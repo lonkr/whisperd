@@ -100,6 +100,7 @@ We sacrifice ~25% of raw intelligence to gain ~75% in safety, accountability, an
 ## The Call to Action
 
 ### For Developers
+```
 
 1. **Clone the repository:**
    git clone https://github.com/lonkr/whisperd
@@ -117,6 +118,7 @@ sock.connect("/tmp/whisperd.sock")
 while True:
     whisper = json.loads(sock.recv(1024))
     # Your logic here
+```
 
 For Architects
 Build a memory system that queries by tick range.
