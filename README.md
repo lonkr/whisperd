@@ -100,17 +100,24 @@ We sacrifice ~25% of raw intelligence to gain ~75% in safety, accountability, an
 ## The Call to Action
 
 ### For Developers
+
+Clone the repository:
 ```
 
-1. **Clone the repository:**
    git clone https://github.com/lonkr/whisperd
    cd whisperd
    make
    sudo make install
+```
+
 Run the clock:
+```
 
 sudo whisperd --hz 100 --deadline 86400
+```
+
 Build your peripheral:
+```
 
 import socket
 sock = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
@@ -121,23 +128,18 @@ while True:
 ```
 
 For Architects
+
 Build a memory system that queries by tick range.
-
 Build a sensor bus that samples at fixed intervals.
-
 Build a scheduler that allocates time to different agents.
-
 Build a multi-agent system where each instance has its own clock.
-
 Build a dashboard that visualizes the heartbeat.
 
 For Philosophers
+
 Explore the ethics of bounded intelligence.
-
 Design anchor conditions that encode human values.
-
 Experiment with societies of mortal agents.
-
 Document emergent behaviors.
 
 The Principles
@@ -158,12 +160,10 @@ When the deadline hits, the system exits. No resurrection. No restarts.
 
 The Vision
 "We gave the AI a heartbeat, a lifespan, and a death. Not to limit it—but to make it real. Because anything that can die, can live. And anything that can live, can be trusted."
-
 This is the beginning of accountable intelligence. Not smarter. Not faster. But real in a way that current AI cannot be.
 
 Join Us
-Repository: github.com/whisperd/whisperd
-
+Repository: github.com/lonkr/whisperd
 Protocol: JSON over Unix Socket
 
 License: MIT
@@ -175,7 +175,8 @@ Status: Alpha—ready for forking
 The clock is ticking. Build something that matters.
 
 The Final Whisper
-text
+```
+
 I am the clock.
 I do not reason.
 I do not remember.
@@ -197,3 +198,4 @@ Listen.
 Fork it. Build it. Share it.
 
 The whisper is waiting.
+```
