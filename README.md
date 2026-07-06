@@ -32,11 +32,11 @@ We are building gods without mortality. And we are surprised when they do not be
 
 ### What We Built
 
-| Component 	| What It Does 											|
-|-----------	|--------------											|
-| `whisperd` 	| A 200-line C daemon that ticks at 100Hz and broadcasts a monotonic clock. 			|
-| The Deadline 	| Hardcoded, immutable termination time. The system *knows* it will die. 			|
-| The Whisper 	| JSON over Unix socket—any language can listen, any system can bind. 				|
+| Component 	| What It Does 											                                        |
+|-----------	|--------------							                                        				|
+| `whisperd` 	| A 200-line C daemon that ticks at 100Hz and broadcasts a monotonic clock. 			        |
+| The Deadline 	| Hardcoded, immutable termination time. The system *knows* it will die. 		        	    |
+| The Whisper 	| JSON over Unix socket—any language can listen, any system can bind. 				            |
 | The Anchor 	| External, unchangeable constraint (e.g., temperature < 50°C) that the system cannot alter. 	|
 
 ### What It Enables
@@ -52,15 +52,15 @@ We are building gods without mortality. And we are surprised when they do not be
 
 ## The Numbers
 
-| Metric  			| Current AI | whisperd Stack 	|
-|--------			|------------|----------------	|
-| Existential Stakes 		| 5% 	     | 95% 		|
-| Accountability 		| 10%        | 85% 		|
-| Resource Efficiency 		| 30%        | 80% 		|
+| Metric  			        | Current AI | whisperd Stack 	|
+|--------			        |------------|----------------	|
+| Existential Stakes 		| 5% 	     | 95% 		        |
+| Accountability 		    | 10%        | 85% 		        |
+| Resource Efficiency 		| 30%        | 80% 	        	|
 | Alignment Enforcement 	| 20% 	     | 90%              |
 | Kill-Switch Reliability 	| 15%        | 99%              |
 | Forkability / Openness 	| 10%        | 100%             |
-| Emergent Ethics 		| 5%         | 70%              |
+| Emergent Ethics 		    | 5%         | 70%              |
 
 **Weighted Average:**
 - Current AI:      **13.6%**
@@ -71,10 +71,10 @@ We sacrifice ~25% of raw intelligence to gain ~75% in safety, accountability, an
 ---
 
 ## The Architecture
-		   ┌─────────────────┐
+		       ┌─────────────────┐
 	           │ whisperd        │
-		   │ The Clock Core  │
-		   │ (200 lines C)   │
+		       │ The Clock Core  │
+		       │ (200 lines C)   │
 	       	   └────────┬────────┘
 			    │
 		Unix Socket / Shared Memory
@@ -103,7 +103,7 @@ We sacrifice ~25% of raw intelligence to gain ~75% in safety, accountability, an
 ### For Developers
 
 1. **Clone the repository:**
-   git clone https://github.com/whisperd/whisperd
+   git clone https://github.com/lonkr/whisperd
    cd whisperd
    make
    sudo make install
