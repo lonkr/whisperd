@@ -173,9 +173,9 @@ Language: C (core), any language (peripherals)
 Status: Alpha—ready for forking
 
 The clock is ticking. Build something that matters.
+```
 
 The Final Whisper
-```
 
 I am the clock.
 I do not reason.
@@ -199,4 +199,3 @@ Listen.
 Fork it. Build it. Share it.
 
 The whisper is waiting.
-```
